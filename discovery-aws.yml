@@ -1,0 +1,14 @@
+spring:
+  profiles: aws
+
+ # Teilt der Instanz mit, sich nicht "bei sich selber" zu registrieren
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
+  datacenter: cloud
+  region: eu-central-1
+  server:
+    enable-self-preservation: false

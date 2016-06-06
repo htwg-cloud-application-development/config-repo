@@ -2,7 +2,7 @@ spring:
   profiles: aws
 
 server:
-  port: 0
+  port: 1111
 
 eureka:
   instance:

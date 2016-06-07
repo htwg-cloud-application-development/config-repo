@@ -25,4 +25,3 @@ app:
         imageId: ami-1e04ea71
         instanceType: t2.micro
         keyName: aws_frankfurt
-        keyName: aws_frankfurt

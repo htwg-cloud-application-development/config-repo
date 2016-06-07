@@ -16,3 +16,13 @@ eureka:
     fetchRegistry: true
     serviceUrl:
         defaultZone: http://ec2-52-58-87-195.eu-central-1.compute.amazonaws.com:8761/eureka/
+
+app:
+  aws:
+    securityGroup: sg-5f2cd437
+    services:
+      checkstyle:
+        imageId: ami-1e04ea71
+        instanceType: t2.micro
+        keyName: aws_frankfurt
+        keyName: aws_frankfurt

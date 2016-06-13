@@ -22,6 +22,6 @@ app:
     securityGroup: sg-5f2cd437
     services:
       checkstyle:
-        imageId: ami-1e04ea71
+        imageId: ami-7fbe5710
         instanceType: t2.micro
         keyName: aws_frankfurt

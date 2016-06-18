@@ -25,3 +25,7 @@ app:
         imageId: ami-7fbe5710
         instanceType: t2.micro
         keyName: aws_frankfurt
+      pmd:
+        imageId: ami-c452bbab
+        instanceType: t2.micro
+        keyName: aws_frankfurt

@@ -19,6 +19,10 @@ eureka:
 
 app:
   aws:
+    init:
+      instance:
+        duration: 900000
+        max: 5
     securityGroup: sg-5f2cd437
     services:
       checkstyle:

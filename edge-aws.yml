@@ -14,4 +14,4 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-        defaultZone: http://ec2-52-58-87-195.eu-central-1.compute.amazonaws.com:8761/eureka/
+        defaultZone: http://ip-172-31-26-103.eu-central-1.compute.internal:8761/eureka/
